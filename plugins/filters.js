@@ -51,7 +51,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
             var uri = encodeURI(match[1])
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '918281370025@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '919645529981@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Lub.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.MENTION) {
@@ -84,7 +84,7 @@ if(pattern.test(message.message)){
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '917025994178@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '919645529981@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./Amruserv2/Hi.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, contextInfo: { forwardingScore: 5, isForwarded: true }, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.MENTION) {
@@ -116,7 +116,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if(Config.STICKERP){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '918281370025@s.whatsapp.net') {
+    if (!!message.mention && message.mention[0] == '919645529981@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/Hi.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
 const array = ['Kalippanser','help','achodaa','Aarulle','Aysheri','Ayo','Da','Ee','Enthada','Hi','Line','Love','Ok','poda','Va','Vannu','umma','Aparna','Baby','feel','Hi','Kalippan','Kgf','Love','Lover','Lub','menu','Ne','Para','sed']
